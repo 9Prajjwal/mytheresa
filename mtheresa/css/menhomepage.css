@@ -1,0 +1,159 @@
+/* navbar */
+#navbar {
+    border-bottom: 1px solid #B1B1B1;
+}
+
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+#first_part{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+ 
+}
+
+#first_part>a>p{
+    padding:0px 10px
+}
+
+#second_part {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+
+#second_part>a>p{
+    padding:0px 10px;
+    /* font-size: 13px;
+    font-weight: 100;
+    line-height: 17px; */
+}
+
+#mid{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    margin-top: 3%;
+}
+#stdiv {
+    margin-left: 25%;
+}
+
+#stdiv>img{
+  height: 36px;
+  width: 293px;
+
+}
+
+#nddiv {
+    margin-left: 20%;
+}
+
+#tail {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1%;
+  
+}
+
+#tail>div a {
+     margin-left: 6%;
+     font-size: 16px;
+   display: inline-block;
+     
+}
+
+#tail>div {
+    margin-left: -3%;
+    display:flex;
+ 
+}
+
+#tail div input {
+    width: 200px;
+    margin-left: 4%;
+}
+
+/* body */
+
+#first {
+    
+   
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+#first img {
+    width: 86%;
+}
+
+#contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#second {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.one {
+    width: 38%;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one div {
+    color: white;
+}
+
+.two {
+    width: 38%;
+    height: 550px;
+    background-image: url("/images/men2.jpg");
+    background-size: cover;
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.three {
+    width: 38%;
+    height: 550px;
+    background-image: url("/images/men3.jpg");
+    background-size: cover;
+}
+
+.four{
+    width: 38%;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four div {
+    color: white;
+    margin-left: -9%;
+}

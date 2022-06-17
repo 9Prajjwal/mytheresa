@@ -1,0 +1,56 @@
+#navbar {
+    margin: auto;
+}
+
+#navbar img {
+    width: 30%;
+    height: 60px;
+   margin-left: 33%;
+   margin-top: 5%;
+}
+
+#main {
+    width: 80%;
+    margin: 10%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+#fn {
+    width: 350px;
+}
+
+#ln {
+    width: 350px;
+}
+
+
+#com {
+    width: 350px;
+}
+
+
+#street {
+    width: 350px;
+}
+
+
+#pc {
+    width: 350px;
+}
+
+
+#city {
+    width: 350px;
+}
+
+
+#country {
+    width: 350px;
+}
+
+
+#phn {
+    width: 350px;
+}

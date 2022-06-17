@@ -1,0 +1,32 @@
+#navbar {
+    margin: auto;
+}
+
+#navbar img {
+    width: 30%;
+    height: 60px;
+   margin-left: 33%;
+   margin-top: 5%;
+}
+
+#main {
+    width: 80%;
+    margin: 10%;
+    margin-top: 7%;
+
+}
+
+#first {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+#two a {
+ margin-right: 29px;
+}
+
+#cvv {
+    margin-left: 18px;
+}

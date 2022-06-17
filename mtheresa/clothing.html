@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar1.css">
+    <link rel="stylesheet" href="/css/clothing.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="main">
+        <div id="head1">
+           <h4>MEN</h4>
+           <h2>CLOTHING</h2>
+            <div id="types">
+                <div> <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/13_Menswear/MW_CateoryBanners/SS21_MWCatBanners/Desktop/CAT-BANNERS-JACKETS-1_2x_20220311163339.jpg?imwidth=1180&imdensity=1" alt="">
+                <p>JACKETS</p>
+                </div>
+                <div>
+                    <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/13_Menswear/MW_CateoryBanners/SS21_MWCatBanners/Desktop/CAT-BANNERS-TAILORING-1_2x_20220309143734.jpg?imwidth=1180&imdensity=1" alt="">
+                <p>TAILORING</p>
+                </div>
+                <div>
+                    <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/13_Menswear/MW_CateoryBanners/SS21_MWCatBanners/Desktop/CAT-BANNERS-KNITWEAR-1_2x_20220309143732.jpg?imwidth=1180&imdensity=1" alt="">
+                <p>KNITWEAR</p>
+                </div>
+                <div>
+                    <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/13_Menswear/MW_CateoryBanners/SS21_MWCatBanners/Desktop/CAT-BANNERS-PANTS-1_2x_20220309143735.jpg?imwidth=1180&imdensity=1" alt="">
+               <p>PANTS</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="upper">
+                <p>MEN | CLOTHING</p>
+                <div id="result">
+                    
+                </div>
+                <div id="sort">
+                    <select   id="sortby">
+                        <div id="option">
+                            <option value>Sort</option>
+                            <option value="hightolow">Price: High to low</option>
+                            <option value="lowtohigh">Price: Low to high</option>
+                          
+                        </div>
+                    </select>
+                </div>
+            </div>
+            <div id="lower">
+                <div id="filter">
+                   
+                    <div id="brands">
+                        <div>Brands</div>
+                        <div>
+                            <label><input  id="junya" type="checkbox" value="junya" />JUNYA WATANABE</label>
+                            <label><input  id="homme" type="checkbox" value="homme" />HOMME DEUX</label>
+                            <label><input  id="nanu" type="checkbox" value="nanu" />NANUSHKA</label>
+                            <label> <input  id="alanui" type="checkbox" value="alanui" />ALANUI</label>
+                            <label> <input  id="lanvin" type="checkbox" value="lanvin" />LANVIN</label>
+                            <label> <input  id="marni" type="checkbox" value="marni" />MARNI</label>
+        
+                        </div>
+                    </div>
+                    <div id="price">
+                        <div>Price</div>
+                        <div>
+                            <label> <input id="fifty" type="checkbox" value="€50to€100" />€50 to €100</label>
+                            <label> <input  id="hundred" type="checkbox" value="€101to€200" />€101 to €200</label>
+                            <label> <input  id="twohundred" type="checkbox" value="€201to€500" />€201 to €500</label>
+                            <label> <input  id="fivehundred" type="checkbox" value="€501andabove" />€501 and above</label>
+        
+                        </div>
+                    </div>
+        
+                    <div id="discountrange">
+                        <div>DISCOUNT RANGE</div>
+                        <div>
+                            <label> <input onchange="above50()" id="above50" type="checkbox" value="above50" />50% and
+                                above</label>
+                            <label> <input onchange="above60()" id="above60" type="checkbox" value="above60" />60% and
+                                above</label>
+                            <label> <input onchange="above70()" id="above70" type="checkbox" value="above70" />70% and
+                                above</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="product"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="/js/navbar1.js" type="module"></script>
+<script src="/js/clothing.js" type="module"></script>

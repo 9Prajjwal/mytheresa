@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/payment.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <title>Payment</title>
+</head>
+<body>
+    
+    <div id="navbar">
+        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" >
+    </div>
+
+  <div id="main">
+      <h2>PAYMENT METHOD</h2>
+      <p>Please select your preferred payment method for this order.</p>
+       
+      <hr>
+      <div id="first">
+          <div id="one">
+            <input type="radio" ><Label>Card</Label>
+            <p>Immediate Shipping</p>
+          </div>
+          <div id="two">
+              <p>Name on card *</p>
+              <input type="text">
+              <p>Credit card number *</p>
+              <input type="number" placeholder="1111 2222 3333 4444"><br><br>
+              <a> Expiration date *</a> <a >CVC / CVV</a><br><br>
+              <input type="number" placeholder="MM/YY"> <input type="number" placeholder="123" id="cvv">
+              <p>* required fields</p>
+            </div>
+      </div>
+      <hr>
+
+      <input type="button" value="PROCEED TO CHECKOUT" id="btn">
+    </div>
+
+</body>
+</html>
+
+<script src="/js/payment.js"></script>
