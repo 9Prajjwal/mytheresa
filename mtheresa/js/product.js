@@ -82,7 +82,7 @@ appendData(data);
 
 let appendImage = (data) => {
     let box=document.getElementById("image");
-
+    box.innerHTML=null;
     data.forEach(el => {
         
         let img = document.createElement("img");
