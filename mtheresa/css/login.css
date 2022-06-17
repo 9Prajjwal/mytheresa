@@ -1,0 +1,18 @@
+#main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#one{
+    width: 50%;
+    padding-right: 5%;
+    border-right: 1px solid brown;
+}
+
+#two{
+    width: 50%;
+    margin-left: 5%;
+}

@@ -1,0 +1,53 @@
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details img {
+    width: 150px;
+    height: 150px;
+}
+
+#box_one{
+    display: flex;
+}
+#box_one div {
+    margin-right: 2%;
+}
+
+#box_two{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+#box_two>div {
+    margin-left: 2%;
+}
+
+#heads {
+    margin-left: 70%;
+}
+
+#heads> b {
+    margin-right: 10px;
+}
+
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#last {
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+}
+
+.coupon{
+width: 50%;
+height: 20px;
+}

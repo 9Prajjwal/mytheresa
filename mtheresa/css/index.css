@@ -1,0 +1,149 @@
+/* navbar */
+#navbar {
+    border-bottom: 1px solid #B1B1B1;
+}
+
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+#first_part{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+ 
+}
+
+#first_part>a>p{
+    padding:0px 10px
+}
+
+#second_part {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+
+#second_part>a>p{
+    padding:0px 10px;
+    /* font-size: 13px;
+    font-weight: 100;
+    line-height: 17px; */
+}
+
+#mid{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    margin-top: 3%;
+}
+#stdiv {
+    margin-left: 25%;
+}
+
+#stdiv>img{
+  height: 36px;
+  width: 293px;
+
+}
+
+#nddiv {
+    margin-left: 20%;
+}
+
+/* body */
+
+#first {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#one {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: url("/images/women.jpg");
+    background-size: cover;
+}
+
+
+
+#second {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#kid{
+  text-align: center;
+    width: 80%;
+    height: 380px;
+
+    background-image: url("/images/kids.jpg");
+    background-size: cover;
+}
+
+#third {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#life{
+  
+  text-align: center;
+    width: 80%;
+    height: 380px;
+
+    background-image: url("/images/life.jpg");
+    background-size: cover;
+}
+
+.mn,.wm{
+    font-size: 54px;
+    color: white;
+}
+
+.kd,.le{
+    margin-top: 12%;
+    font-size: 54px;
+    color: white;
+}
+
+#contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* footer */
+
+#footer {
+
+}
+#f_one{
+    width: 70%;
+    margin-left: 17%;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 5%;
+}
+
+.f_body{
+    text-align: justify;
+}
