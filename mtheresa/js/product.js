@@ -11,6 +11,7 @@ let appendData = (data) => {
     data.forEach(el => {    
     
     let box = document.getElementById("details");
+            box.innerHTML=null;
    
     let title1 = document.createElement("h3");    
     title1.innerText = el.title;
